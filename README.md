@@ -1,12 +1,12 @@
-Task 4: Movie Rating Prediction
+# Task 4: Movie Rating Prediction
 
-Arch Technologies Data Science Internship
+# Arch Technologies Data Science Internship
 
-1. Project Overview
+## 1. Project Overview
    
 The goal of this project is to build a machine learning model that predicts a user's rating for a specific movie. By analyzing historical data of movie attributes and user demographics, the model can estimate how a user might perceive a film they haven't watched yet—a fundamental component of modern recommendation engines.
 
-2. Dataset Description
+## 2. Dataset Description
 
 The analysis utilizes the synthetic_movie_ratings.csv dataset, which includes 7,500 entries. Key features used for prediction include:
 
@@ -16,9 +16,9 @@ The analysis utilizes the synthetic_movie_ratings.csv dataset, which includes 7,
 
 •	Target Variable: Rating (on a scale of 1.0 to 5.0).
 
-3. Methodology
+## 3. Methodology
 
-3.1 Data Preprocessing
+## 3.1 Data Preprocessing
 
 •	Feature Selection: Features were selected based on their relevance to a movie's appeal and a user's likely preference.
 
@@ -26,7 +26,7 @@ The analysis utilizes the synthetic_movie_ratings.csv dataset, which includes 7,
 
 •	Data Splitting: The dataset was partitioned into a Training Set (80%) to train the model and a Testing Set (20%) to evaluate its accuracy on unseen data.
 
-3.2 Model Selection
+## 3.2 Model Selection
 
 I implemented a Random Forest Regressor. This ensemble learning method was chosen for its ability to:
 
@@ -36,7 +36,7 @@ I implemented a Random Forest Regressor. This ensemble learning method was chose
   
 3.	Provide "Feature Importance" scores to show which factors drive movie ratings.
   
-4. Performance Results
+## 4. Performance Results
    
 The model was evaluated using standard regression metrics:
 
@@ -46,7 +46,7 @@ The model was evaluated using standard regression metrics:
 
 •	R-squared Score (R²): 0.19
 
-4.1 Feature Importance (Top Drivers)
+## 4.1 Feature Importance (Top Drivers)
 
 The model identified the following as the most significant predictors of a movie rating:
 
@@ -56,8 +56,8 @@ The model identified the following as the most significant predictors of a movie
   
 3.	Duration (11.9%): Movie length is a notable factor in how users rate their experience.
   
-5. Conclusion
-The Random Forest model successfully predicts user ratings with high precision (MAE < 0.5). These insights allow Arch Technologies to prioritize content based on director popularity and production scale to maximize user satisfaction.
+## 5. Conclusion
+The Random Forest model successfully predicts user ratings with high precision `(MAE < 0.5)`. These insights allow Arch Technologies to prioritize content based on director popularity and production scale to maximize user satisfaction.
 ________________________________________
 Submitted by: Nikoro Omosefe Benita
 
